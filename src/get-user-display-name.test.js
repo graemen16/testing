@@ -1,5 +1,4 @@
-const getUserDisplayName = require('./get-user-display-name.js');
-//import getUserDisplayName from './get-user-display-name.mjs';
+import getUserDisplayName from './get-user-display-name.js';
 
 jest.mock('./user-store', () => ({
 	UserStore: {
